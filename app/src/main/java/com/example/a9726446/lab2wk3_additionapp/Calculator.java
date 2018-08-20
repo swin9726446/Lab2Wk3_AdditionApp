@@ -14,7 +14,7 @@ public class Calculator {
         try {
             double ex = Double.parseDouble(num1);
             double why = Double.parseDouble(num2);
-            return new DecimalFormat("##.###").format(ex + why).toString();
+            return new DecimalFormat("##.###").format(ex + why);
         } catch (NumberFormatException nfe){
             return "ERR";
         }
